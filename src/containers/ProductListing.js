@@ -15,7 +15,7 @@ const ProductListing = () => {
          .catch((err) => {
             console.log('Err', err)
          });
-      dispatch(response.data);
+      dispatch(setProducts(response.data));
    }
 
    useEffect(() => {
