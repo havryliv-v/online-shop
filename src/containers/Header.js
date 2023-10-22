@@ -18,7 +18,7 @@ const Header = () => {
    return (
       <Segment className='sticky-header' style={fixedMenuStyle} >
          <HeaderComp as='h2'  >
-            Fake shop
+            Online shop
          </HeaderComp>
       </Segment>
    )
